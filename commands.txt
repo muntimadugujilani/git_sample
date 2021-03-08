@@ -18,3 +18,16 @@ git clean --just try to search for unwanted files or .gitignore files
 git clean -d -n runs a dry run to identify unwanted folders and files
 git clean -d -n -i --> to open up interactive terminal to check the unwanted files or folders
 git clean -d -f --> remove unwanted files that are not staged or added in .gitignore
+ 
+
+------------------------------------ 
+
+Tagging
+git tag - to show all the tags
+git tag -l "v1.0" -- all tags corresponding to the tag start name will be displayed
+git tag -a tag_name -m "message" to create a new tag
+git tag tag_name to create a lightweight tag
+git tag - shows the list of tags
+git tag -d tag_name -- to delete a tag
+git push origin tag_name - to push a individual tag to the remote
+git push origin --tags - to push all tags to the remote
