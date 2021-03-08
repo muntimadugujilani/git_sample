@@ -1,0 +1,20 @@
+Rebase
+
+Git checkout branch
+git rebase main
+
+then perform git merge 
+
+--------------------- 
+Stash
+git status -s
+git stash
+git stash apply
+git stash apply --index 
+
+---------------------------
+Cleaning
+git clean --just try to search for unwanted files or .gitignore files
+git clean -d -n runs a dry run to identify unwanted folders and files
+git clean -d -n -i --> to open up interactive terminal to check the unwanted files or folders
+git clean -d -f --> remove unwanted files that are not staged or added in .gitignore
